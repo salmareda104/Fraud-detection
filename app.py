@@ -37,7 +37,7 @@ fra = loaded_model.predict(X_new)
 if st.button("Predict"): 
     if fra == 1:
         st.error('Warning! The Transaction is Fraud')
-    else:
+    elif fra ==0:
         st.success('Normal Transaction')
 
         
@@ -55,4 +55,5 @@ if feedback:
     st.header("Thank you for rating the app!")
 
 
+      
       
