@@ -22,7 +22,7 @@ month= st.selectbox ("month",range(1,12))
 df_new = pd.DataFrame({'amt': [amt], 'amount_std': [amount_std], 'hour': [hour],'month':[month]})
 
 # Load the transformer
-#transformer = pkl.load(open('transformer.pkl', 'rb'))
+transformer = pkl.load(open('transformer.pkl', 'rb'))
 
 # Apply the transformer on the inputs
 X_new = transformer.transform(df_new)
