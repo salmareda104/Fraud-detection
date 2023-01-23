@@ -22,13 +22,13 @@ month= st.selectbox ("month",range(1,12))
 df_new = pd.DataFrame({'amt': [amt], 'amount_std': [amount_std], 'hour': [hour],'month':[month]})
 
 # Load the transformer
-transformer = pkl.load(open('transformer.pkl', 'rb'))
+transformer = pkl.load(open('C:\Users\hp\final project\transformer.pkl', 'rb'))
 
 # Apply the transformer on the inputs
 X_new = transformer.transform(df_new)
 
 # Load the model
-loaded_model = pkl.load(open('final_project.pkl', 'rb'))
+loaded_model = pkl.load(open('C:\Users\hp\final project\final_project.pkl', 'rb'))
 
 # Predict the output
 fra = loaded_model.predict(X_new)
