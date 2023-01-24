@@ -13,17 +13,6 @@ st.set_page_config(
 st.title('Fraud Detection App')
 
 
-styl = f <style>
-	.reportview-container .main .block-container{{
-		{max_width_str}
-		padding-top: {padding_top}rem;
-		padding-right: {padding_right}rem;
-		padding-left: {padding_left}rem;
-		padding-bottom: {padding_bottom}rem;
-	}}
-	}}
-</style>
-
 # Take inputs from user
 
 amt = st.number_input("Transaction Amount")
