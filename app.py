@@ -11,7 +11,7 @@ st.set_page_config(
     page_title="Fraud Detection App",layout="centered",initial_sidebar_state="expanded")
 
 st.title('Fraud Detection App')
-
+st.image('https://www.bing.com/images/search?view=detailV2&ccid=Kd4S7FUp&id=16831012D45778BCE4591F0CF99542F3C5D42516&thid=OIP.Kd4S7FUpa3aYRmBQJPd_jwHaF5&mediaurl=https%3a%2f%2fi2.wp.com%2fdailyfintech.com%2fwp-content%2fuploads%2f2017%2f07%2ffraud-detection.png%3fresize%3d546%252C435%26ssl%3d1&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.29de12ec55296b769846605024f77f8f%3frik%3dFiXUxfNClfkMHw%26pid%3dImgRaw%26r%3d0&exph=435&expw=546&q=fraud+detection+imge&simid=608042480637603277&FORM=IRPRST&ck=A136C740205184A5496D86F177871C81&selectedIndex=15&ajaxhist=0&ajaxserp=0')
 
 # Take inputs from user
 
