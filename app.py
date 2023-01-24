@@ -13,8 +13,7 @@ st.set_page_config(
 st.title('Fraud Detection App')
 
 
-styl = 
-<style>
+styl = <style>
 	.reportview-container .main .block-container{{
 		{max_width_str}
 		padding-top: {padding_top}rem;
