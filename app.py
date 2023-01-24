@@ -11,7 +11,7 @@ st.set_page_config(
     page_title="Fraud Detection App",layout="centered",initial_sidebar_state="expanded")
 
 st.title('Fraud Detection App')
-st.image("fraud_img.jpeg")
+st.image("fraud_img.jpg")
 # Take inputs from user
 
 amt = st.number_input("Transaction Amount")
